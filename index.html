@@ -13,8 +13,8 @@
        <!-- Put this inside the <a-scene> -->
       <a-entity 
       
-      ply-model="src:Real 2 story house.ply"
-      position="-8.717 -6.975 6.457"
+      ply-model="src:Pratha 2 Story House.ply"
+      position="0.000 -1.217 -15.001"
       rotation="-89.950 -89.200 88.950"
 
       
@@ -23,10 +23,28 @@
       <a-entity 
       
       ply-model="src:dog.ply"
-      position="-8.717 -6.975 6.457"
-      rotation="-89.950 -89.200 88.950"
+      position="-2.999 1.591 -16.844"
+      rotation="-89.950 -89.200 -180.00"
 
+ <a-dog color="brown" position="-3.323 1.591 10.232"
+ animation=" 
+ property=" rotation"
+ from="270 -89.2 -180"
+ dur="2000"
+ dir="alternate"
+ repeat="indefinite"
+ easing="ease-in-out"
+ "
+ <a-entity 
       
+ ply-model="src:Clouds.ply"
+ position="0.000 -1.217 -15.452"
+ rotation="-89.950 -89.200 88.950"
+
+ 
+ ></a-entity>
+
+
       ></a-entity>
     </a-scene>
   </body>
